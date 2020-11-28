@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/youtube-portfolio/static/css/main.37961d87.chunk.css",
+    "main.js": "/youtube-portfolio/static/js/main.9647365f.chunk.js",
+    "main.js.map": "/youtube-portfolio/static/js/main.9647365f.chunk.js.map",
+    "runtime-main.js": "/youtube-portfolio/static/js/runtime-main.5e91ead4.js",
+    "runtime-main.js.map": "/youtube-portfolio/static/js/runtime-main.5e91ead4.js.map",
+    "static/js/2.4ffe662e.chunk.js": "/youtube-portfolio/static/js/2.4ffe662e.chunk.js",
+    "static/js/2.4ffe662e.chunk.js.map": "/youtube-portfolio/static/js/2.4ffe662e.chunk.js.map",
+    "static/js/3.b309ee48.chunk.js": "/youtube-portfolio/static/js/3.b309ee48.chunk.js",
+    "static/js/3.b309ee48.chunk.js.map": "/youtube-portfolio/static/js/3.b309ee48.chunk.js.map",
+    "index.html": "/youtube-portfolio/index.html",
+    "static/css/main.37961d87.chunk.css.map": "/youtube-portfolio/static/css/main.37961d87.chunk.css.map",
+    "static/js/2.4ffe662e.chunk.js.LICENSE.txt": "/youtube-portfolio/static/js/2.4ffe662e.chunk.js.LICENSE.txt",
+    "static/media/HonggeunKim_CoverLetter.df7717a4.pdf": "/youtube-portfolio/static/media/HonggeunKim_CoverLetter.df7717a4.pdf",
+    "static/media/adobe.2762452b.jpg": "/youtube-portfolio/static/media/adobe.2762452b.jpg",
+    "static/media/avatarMe.d3416938.png": "/youtube-portfolio/static/media/avatarMe.d3416938.png",
+    "static/media/bemActive.5530a956.webp": "/youtube-portfolio/static/media/bemActive.5530a956.webp",
+    "static/media/js.c5d11fa0.PNG": "/youtube-portfolio/static/media/js.c5d11fa0.PNG",
+    "static/media/jsActive.afd4b6e9.webp": "/youtube-portfolio/static/media/jsActive.afd4b6e9.webp",
+    "static/media/mypic2.1b172909.png": "/youtube-portfolio/static/media/mypic2.1b172909.png",
+    "static/media/nodeActive.368a52c8.webp": "/youtube-portfolio/static/media/nodeActive.368a52c8.webp",
+    "static/media/passion.fb1cf8e0.png": "/youtube-portfolio/static/media/passion.fb1cf8e0.png",
+    "static/media/punctuality.584152ac.png": "/youtube-portfolio/static/media/punctuality.584152ac.png",
+    "static/media/reactActive.33092976.webp": "/youtube-portfolio/static/media/reactActive.33092976.webp",
+    "static/media/royal.c0b468cf.PNG": "/youtube-portfolio/static/media/royal.c0b468cf.PNG",
+    "static/media/team.f1343cfd.png": "/youtube-portfolio/static/media/team.f1343cfd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e91ead4.js",
+    "static/js/2.4ffe662e.chunk.js",
+    "static/css/main.37961d87.chunk.css",
+    "static/js/main.9647365f.chunk.js"
+  ]
+}
