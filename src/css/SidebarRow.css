@@ -1,0 +1,46 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 4px 20px;
+}
+
+.sidebarRow__icon {
+    color: #606060;
+    font-size: 22px !important;
+    margin-top: 5px;
+}
+
+.sidebarRow__title {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebarRow:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+/*change the color of icon and font-weight of title when mouse hover*/
+.sidebarRow:hover > .sidebarRow__icon {
+    color: red;
+}
+
+.sidebarRow:hover > .sidebarRow__title {
+    font-weight: bold;
+}
+
+/*if the container has selected tag change the color*/
+.sidebarRow.selected {
+    background-color: #e6e6e6;
+}
+
+.sidebarRow.selected > .sidebarRow__icon {
+    color: red;
+}
+
+.sidebarRow.selected > .sidebarRow__title {
+    font-weight: bold;
+}
+

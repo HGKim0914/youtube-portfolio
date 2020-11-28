@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.aboutPage {
+    flex: 0.84;
+    background-color: #f9f9f9;
+    padding: 20px 100px;
+}
+
+.aboutPage__filter {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+}
+
+.aboutPage__filter > h2 {
+    margin-left: 10px;
+}
+
+.aboutPage > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutPage > h3 {
+    font-size: 16px !important;
+    padding: 15px;
+    font-weight: 550 !important;
+}
+
+/*Peronality Card*/
+.aboutPage__peronality {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutPage__imgContainer {
+    margin-right: -18%;
+}
+
+.aboutPage__imgContainer > img {
+    margin-top: 5%;
+    width: 25%;
+}
+
+.aboutPage__imgContainer > h3 {
+    margin-top: 3%;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 18px !important;
+}
+
+.aboutPage__imgContainer > h3::first-letter {
+    color: red;
+}
+
+
+/*About me Description*/
+.aboutPage__me {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutPage__myPic{
+    width: 30%;
+}
+
+.aboutPage__desc{
+    width: 70%;
+    margin-top: 2%;
+}
+
+.aboutPage__myPic > img {
+    width: 75%;
+}
+
+.aboutPage__desc > p {
+    font-family: 'Roboto mono', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.aboutPage__firstLetter::first-letter {
+    color: red;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 950px) {
+    .aboutPage__myPic {
+        width: 100%;
+        text-align: center;
+        margin-left: -8%;
+    }
+
+    .aboutPage__myPic > img {
+        width: 50%;
+    }
+
+    .aboutPage__desc{
+        width: 100%;
+    }
+}

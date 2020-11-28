@@ -1,0 +1,36 @@
+.subscriptionRow{
+    display: flex;
+    align-items: center;
+    padding: 9px 20px;
+}
+
+.subscriptionRow__avatar {
+    width: 22px !important;
+    height: 22px !important;
+}
+
+.subscriptionRow__title {
+    margin-left: 22px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.subscriptionRow:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.subscriptionRow__topText{
+    margin: 13px 0 8px 22px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #606060;
+}
+
+.hidden{
+    display: none;
+}
+
+/* .subscriptionRow__showMoreSub{
+    display: none;
+} */

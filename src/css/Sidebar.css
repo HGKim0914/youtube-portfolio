@@ -1,0 +1,32 @@
+.sidebar__hidden:not(.icons) {
+    flex: 0;
+    display: none;
+    transition: 850ms;
+
+}
+
+.sidebar {
+    flex: 0.16;
+    transition: 350ms;
+}
+
+.icons {
+    position: fixed;
+    z-index: 100;
+    margin: -44px 0px 0 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

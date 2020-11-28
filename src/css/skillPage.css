@@ -1,0 +1,58 @@
+.skillPage {
+    flex: 0.84;
+    background-color: #f9f9f9;
+    padding: 20px 100px;
+}
+
+.skillPage__filter {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+}
+
+.skillPage__filter > h2 {
+    margin-left: 10px;
+}
+
+.skillPage > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skillPage > h3 {
+    font-size: 16px !important;
+    padding: 15px;
+    font-weight: 550 !important;
+}
+
+fieldset{
+    margin-top: 3%;
+    width: 80%;
+    border: 2px solid lightgrey !important;
+    border-radius: 10px;
+    padding: 1.4em 1.4em 1.4em 1.4em !important;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+legend {
+    text-align: left !important;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.skillPage__langContainer {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.skillPage__techContainer {
+    margin-left: 10%;
+    margin-right: auto;
+}

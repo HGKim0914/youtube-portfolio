@@ -1,0 +1,67 @@
+.videoCard {
+    margin-right: 22px;
+    margin-bottom: 40px;
+    /* width: 21.7%; */
+    width: 290px;
+}
+
+.videoCard__wrapper {
+    /*display videos in a row*/
+    display: flex;
+
+    /*wrap the videos depend on screen size*/
+    flex-wrap:  wrap;
+}
+
+.videoCard__thumbnail {
+    width: 291.5px;
+    height: 160px;
+    cursor: pointer;
+    
+}
+
+.videoCard__thumbnailActive {
+    width: 291.5px;
+    height: 160px;
+    cursor: pointer;
+    
+}
+
+.videoCard__thumbnailStatic {
+    position: absolute;
+    width: 291.5px;
+    height: 160px;
+    cursor: pointer;
+    
+}
+
+.videoCard__thumbnailStatic:hover {
+    opacity: 0;
+    transition: linear 0.4s;
+}
+
+.videoCard__info {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.videoCard__text {
+    margin-left: 15px;
+}
+
+.videoCard__text > h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 550 !important;
+}
+
+.videoCard__text > p {
+    font-size: 14px;
+    color: gray;
+}
+
+.videoCard__avatar {
+    height: 32px !important;
+    width: 32px !important;
+}

@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+    /*to make a sticky header*/
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.header__logo {
+    height: 21px;
+    object-fit: contain;
+    margin-left: 65px;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+}
+
+.header__icon {
+    margin-right: 25px;
+    font-size: 25px !important;
+}
+
+.header__keyborad{
+    margin-right: 10px;
+    color: gray;
+}
+
+.header__inputButton {
+    margin-top: 4px;
+    font-size: 20px !important;
+    width: 65px !important;
+    background-color: #fafafa00;
+    color: gray
+}
+
+.header__inputButton:hover {
+    color: black;
+}
+
+.header__inputWrapper {
+    border: none;
+    border-left: 1px solid lightgray;
+    background-color:  rgb(247, 247, 247);
+}
+
+.header__inputWrapper:hover {
+    background-color:  rgba(240, 238, 238, 0.918);
+}
+
+.header__input > input {
+    flex: 1;
+    border: none;
+    height: 25px;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+    color: #615e5e;
+}
+
+.header__tooltipText {
+    /* visibility: hidden; */
+    width: 72px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 12px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    margin-left: -21px;
+    
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .header__tooltipWrapper:hover .header__tooltipText {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
