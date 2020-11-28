@@ -55,7 +55,7 @@ function Header() {
             </a>
 
             <a href={CoverLetter} target="_blank" type="application/pdf" className="header__tooltipWrapper" rel="noopener noreferrer">
-                <DescriptionIcon className="header__icon" />
+                <DescriptionIco className="header__icon" />
                 <br /><span className="header__tooltipText">Cover Letter</span>
             </a>
 
