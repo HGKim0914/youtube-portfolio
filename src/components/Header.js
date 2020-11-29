@@ -16,21 +16,14 @@ function Header() {
     const [inputSearch, setInputSearch] = useState("");
 
     const refreshPage = ()=>{
-        window.location.reload();
-        window.location.replace("/");
-
-     }
+        window.location.href = "/";
+    }
 
     return(
     <div className="header">
 
         <div className="header__left">
-            {/* <a href="#" className="menu-bars">
-                <MenuIcon/>
-            </a> */}
-            <Link to='/'>
-                <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1920px-YouTube_Logo_2017.svg.png" alt="Logo" onClick={refreshPage} />
-            </Link>
+            <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1920px-YouTube_Logo_2017.svg.png" alt="Logo" onClick={refreshPage} />
         </div>
 
         <div className="header__input">
@@ -55,7 +48,7 @@ function Header() {
             </a>
 
             <a href={CoverLetter} target="_blank" type="application/pdf" className="header__tooltipWrapper" rel="noopener noreferrer">
-                <DescriptionIco className="header__icon" />
+                <DescriptionIcon className="header__icon" />
                 <br /><span className="header__tooltipText">Cover Letter</span>
             </a>
 
