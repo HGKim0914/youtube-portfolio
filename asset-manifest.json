@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/youtube-portfolio/static/css/main.67dd211a.chunk.css",
-    "main.js": "/youtube-portfolio/static/js/main.9647365f.chunk.js",
-    "main.js.map": "/youtube-portfolio/static/js/main.9647365f.chunk.js.map",
+    "main.css": "/youtube-portfolio/static/css/main.8239ad8a.chunk.css",
+    "main.js": "/youtube-portfolio/static/js/main.25ede60b.chunk.js",
+    "main.js.map": "/youtube-portfolio/static/js/main.25ede60b.chunk.js.map",
     "runtime-main.js": "/youtube-portfolio/static/js/runtime-main.5e91ead4.js",
     "runtime-main.js.map": "/youtube-portfolio/static/js/runtime-main.5e91ead4.js.map",
-    "static/js/2.4ffe662e.chunk.js": "/youtube-portfolio/static/js/2.4ffe662e.chunk.js",
-    "static/js/2.4ffe662e.chunk.js.map": "/youtube-portfolio/static/js/2.4ffe662e.chunk.js.map",
+    "static/js/2.93bdc1eb.chunk.js": "/youtube-portfolio/static/js/2.93bdc1eb.chunk.js",
+    "static/js/2.93bdc1eb.chunk.js.map": "/youtube-portfolio/static/js/2.93bdc1eb.chunk.js.map",
     "static/js/3.b309ee48.chunk.js": "/youtube-portfolio/static/js/3.b309ee48.chunk.js",
     "static/js/3.b309ee48.chunk.js.map": "/youtube-portfolio/static/js/3.b309ee48.chunk.js.map",
     "index.html": "/youtube-portfolio/index.html",
-    "static/css/main.67dd211a.chunk.css.map": "/youtube-portfolio/static/css/main.67dd211a.chunk.css.map",
-    "static/js/2.4ffe662e.chunk.js.LICENSE.txt": "/youtube-portfolio/static/js/2.4ffe662e.chunk.js.LICENSE.txt",
+    "static/css/main.8239ad8a.chunk.css.map": "/youtube-portfolio/static/css/main.8239ad8a.chunk.css.map",
+    "static/js/2.93bdc1eb.chunk.js.LICENSE.txt": "/youtube-portfolio/static/js/2.93bdc1eb.chunk.js.LICENSE.txt",
     "static/media/HonggeunKim_CoverLetter.df7717a4.pdf": "/youtube-portfolio/static/media/HonggeunKim_CoverLetter.df7717a4.pdf",
     "static/media/adobe.2762452b.jpg": "/youtube-portfolio/static/media/adobe.2762452b.jpg",
     "static/media/avatarMe.d3416938.png": "/youtube-portfolio/static/media/avatarMe.d3416938.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5e91ead4.js",
-    "static/js/2.4ffe662e.chunk.js",
-    "static/css/main.67dd211a.chunk.css",
-    "static/js/main.9647365f.chunk.js"
+    "static/js/2.93bdc1eb.chunk.js",
+    "static/css/main.8239ad8a.chunk.css",
+    "static/js/main.25ede60b.chunk.js"
   ]
 }
