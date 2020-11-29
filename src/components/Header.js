@@ -16,7 +16,7 @@ function Header() {
     const [inputSearch, setInputSearch] = useState("");
 
     const refreshPage = ()=>{
-        window.location.href = "/";
+        window.location.href = "/youtube-portfolio";
     }
 
     return(
