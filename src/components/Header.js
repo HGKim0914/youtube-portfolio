@@ -47,13 +47,16 @@ function Header() {
                 <br /><span className="header__tooltipText">LinkedIn</span>
             </a>
 
-            <a href={CoverLetter} target="_blank" type="application/pdf" className="header__tooltipWrapper" rel="noopener noreferrer">
+            {/* <a href={CoverLetter} target="_blank" type="application/pdf" className="header__tooltipWrapper" rel="noopener noreferrer">
                 <DescriptionIcon className="header__icon" />
                 <br /><span className="header__tooltipText">Cover Letter</span>
+            </a> */}
+
+            <a href="https://github.com/HGKim0914" target="_blank"  rel="noopener noreferrer" className="header__tooltipWrapper">
+                <GitHubIcon className="header__icon" />
+                <br /><span className="header__tooltipText">Github</span>
             </a>
-
-            <GitHubIcon className="header__icon" />
-
+            
             <a href="mailto:hongggeunkim0914@gmail.com" className="header__tooltipWrapper">
                 <MailOutlineIcon className="header__icon" />
                 <br /><span className="header__tooltipText">Email</span>

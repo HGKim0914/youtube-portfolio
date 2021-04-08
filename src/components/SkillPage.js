@@ -53,10 +53,10 @@ function SkillPage() {
                     <FontAwesomeIcon icon={faJava} className="icon-size" size="5x" />
                     <p className="font-bold font-color-gray"><b>Java</b></p>
                 </div>
-                <div className="skillPage__langs">
+                {/* <div className="skillPage__langs">
                     <img alt="Passion" src={cSharp}></img>
                     <p className="font-bold font-color-gray"><b>C#</b></p>
-                </div>
+                </div> */}
             </fieldset>
             </div><br /><br /><br />
             
@@ -75,10 +75,10 @@ function SkillPage() {
                     <FontAwesomeIcon icon={faReact} className="icon-size" size="5x" />
                     <p className="font-bold font-color-gray"><b>React</b></p>
                 </div>
-                <div>
+                {/* <div>
                     <FontAwesomeIcon icon={faNode} className="icon-size" size="5x" />
                     <p className="font-bold font-color-gray"><b>Node.js</b></p>
-                </div>
+                </div> */}
                 <div>
                     <FontAwesomeIcon icon={faDatabase} className="icon-size" size="5x" />
                     <p className="font-bold font-color-gray"><b>SQL</b></p>
